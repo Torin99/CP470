@@ -6,6 +6,14 @@
     <string name="LoginHint">login name</string>
     <string name="Password">Password</string>
     <string name="Switch">What does this do?</string>
+    <string name="SwitchToastOn">Switch is On</string>
+    <string name="SwitchToastOff">Switch is Off</string>
     <string name="Activity">Activity List</string>
 
+    <string name="dialog_message">Click Yes or No to finish the activity</string>
+    <string name="title">Finish Activity?</string>
+    <string name="ActivityConfirm">YES</string>
+    <string name="ActivityCancel">NO</string>
+
+    <string name="Response">Response Code Response</string>
 </resources>

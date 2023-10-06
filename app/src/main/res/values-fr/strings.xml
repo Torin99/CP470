@@ -7,6 +7,14 @@
     <string name="LoginHint">identifiant</string>
     <string name="Password">Mot de passe</string>
     <string name="Switch">Qu\'est-ce que cela fait ?</string>
+    <string name="SwitchToastOn">L\'interrupteur est allumé</string>
+    <string name="SwitchToastOff">L\'interrupteur est éteint</string>
     <string name="Activity">Liste d\'activités</string>
 
+    <string name="dialog_message">Cliquez sur Oui ou Non pour terminer l\'activité</string>
+    <string name="title">Terminer l\'activité?</string>
+    <string name="ActivityConfirm">OUI</string>
+    <string name="ActivityCancel">NON</string>
+
+    <string name="Response">Réponse du code de réponse</string>
 </resources>
