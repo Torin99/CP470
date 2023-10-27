@@ -23,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
             startActivityForResult(intent,10);
         });
+
+        Button testToolbarButton = super.findViewById(R.id.testToolbarButton);
+        testToolbarButton.setOnClickListener((view) -> {
+            Intent intent = new Intent(this, TestToolbar.class);
+            startActivity(intent);
+        });
     }
 
     @Override

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_one"
+        android:title="one"
+        android:icon="@drawable/burger"
+        android:orderInCategory="101"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_two"
+        android:title="two"
+        android:icon="@drawable/pizza"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item android:id="@+id/action_three"
+        android:title="three"
+        android:icon="@drawable/doughnut"
+        android:orderInCategory="103"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_four"
+        android:title="Settings"
+        android:orderInCategory="104"
+        app:showAsAction="never"/>
+</menu>
